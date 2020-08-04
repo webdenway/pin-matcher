@@ -26,7 +26,7 @@ for (i = 0; i < buttonNumber.length; i++) {
 
         } else {
             document.getElementById("display-area").value += displayNumber;
-
+            document.getElementById("pin-submit").disabled = false;
         }
     })
 }
